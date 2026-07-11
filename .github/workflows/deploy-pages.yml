@@ -32,7 +32,10 @@ jobs:
 
       - run: npm run build
 
+      # enablement: true = เปิดใช้ GitHub Pages ให้เองถ้ายังไม่ได้เปิด (ไม่ต้องไปกดในหน้า Settings)
       - uses: actions/configure-pages@v5
+        with:
+          enablement: true
 
       - uses: actions/upload-pages-artifact@v3
         with:
