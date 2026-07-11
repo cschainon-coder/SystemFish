@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>สุขใจฟาร์ม | ฟาร์มปลาคุณภาพ ลูกปลา ปลาโต อาหารปลา</title>
+  <meta name="description" content="สุขใจฟาร์ม จำหน่ายลูกปลา ปลาโต และอาหารปลาคุณภาพ ส่งทั่วประเทศ">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@400;500;600;700&family=Sarabun:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <header class="navbar" id="navbar">
+    <div class="navbar-inner container">
+      <a href="#/home" class="navbar-logo" data-nav>
+        <span class="logo-icon">🐟</span>
+        <span class="logo-text" id="navFarmName">สุขใจฟาร์ม</span>
+      </a>
+      <nav class="navbar-menu" id="navbarMenu">
+        <a href="#/home" class="nav-link" data-page="home" data-nav>หน้าแรก</a>
+        <a href="#/products" class="nav-link" data-page="products" data-nav>สินค้า</a>
+        <a href="#/knowledge" class="nav-link" data-page="knowledge" data-nav>ความรู้</a>
+        <a href="#/review" class="nav-link" data-page="review" data-nav>รีวิว & คำถาม</a>
+        <a href="#/contact" class="nav-link" data-page="contact" data-nav>ติดต่อเรา</a>
+      </nav>
+      <button class="navbar-toggle" id="navbarToggle" aria-label="เปิดเมนู">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ===== MAIN APP CONTAINER ===== -->
+  <main id="app"></main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="logo-icon">🐟</span>
+        <span id="footerFarmName">สุขใจฟาร์ม</span>
+      </div>
+      <p id="footerTagline" class="footer-tagline">ปลาสดจากบ่อ ส่งตรงถึงมือคุณ</p>
+      <div class="footer-socials" id="footerSocials"></div>
+      <p class="footer-copy">&copy; 2026 สุขใจฟาร์ม — เว็บไซต์เวอร์ชันทดลอง (Mock Data)</p>
+    </div>
+  </footer>
+
+  <!-- ===== TOAST CONTAINER ===== -->
+  <div id="toastContainer" class="toast-container"></div>
+
+  <!-- ===== BACK TO TOP ===== -->
+  <button id="backToTop" class="back-to-top" aria-label="กลับขึ้นด้านบน">↑</button>
+
+  <!-- ===== PRODUCT MODAL ===== -->
+  <div id="productModal" class="modal-overlay" hidden>
+    <div class="modal-box" id="productModalBox"></div>
+  </div>
+
+  <!-- ===== ARTICLE MODAL ===== -->
+  <div id="articleModal" class="modal-overlay" hidden>
+    <div class="modal-box" id="articleModalBox"></div>
+  </div>
+
+  <script src="/js/api.js"></script>
+  <script src="/js/ui-helpers.js"></script>
+  <script src="/js/home.js"></script>
+  <script src="/js/products.js"></script>
+  <script src="/js/knowledge.js"></script>
+  <script src="/js/review.js"></script>
+  <script src="/js/contact.js"></script>
+  <script src="/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+[
+  {
+    "type": "promotion",
+    "title": "โปรลูกปลาช่อน 7 บาท/ตัว",
+    "description": "ซื้อตั้งแต่ 100 ตัวขึ้นไป ราคาพิเศษทันที พร้อมแถมอาหารปลาทดลอง 1 ถุง",
+    "image_url": "/images/mock/promo-1.svg",
+    "start_date": "2026-06-01",
+    "end_date": "2026-07-31",
+    "is_active": "Y"
+  },
+  {
+    "type": "promotion",
+    "title": "อาหารปลาซื้อ 5 แถม 1",
+    "description": "ซื้ออาหารปลาครบ 5 ถุง รับฟรีอีก 1 ถุงทันที (เฉพาะสูตรเร่งโต)",
+    "image_url": "/images/mock/promo-2.svg",
+    "start_date": "2026-06-15",
+    "end_date": "2026-08-15",
+    "is_active": "Y"
+  },
+  {
+    "type": "coming_soon",
+    "title": "ปลาดุกบิ๊กอุย ไซส์ใหม่",
+    "description": "เตรียมพบกับลูกปลาดุกบิ๊กอุยไซส์ 4-5 ซม. เร็วๆ นี้ จองคิวล่วงหน้าได้แล้ว",
+    "image_url": "/images/mock/coming-1.svg",
+    "start_date": "2026-07-15",
+    "end_date": "",
+    "is_active": "Y"
+  }
+]

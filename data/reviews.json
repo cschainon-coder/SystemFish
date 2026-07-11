@@ -1,0 +1,56 @@
+[
+  {
+    "review_id": "R001",
+    "reviewer_name": "คุณสมชาย ใจดี",
+    "stars": 5,
+    "review_text": "ลูกปลาแข็งแรงมาก สั่งไป 500 ตัว รอดเกือบทุกตัว ส่งไวด้วยครับ",
+    "timestamp": "2026-06-10T09:30:00Z",
+    "is_approved": "Y",
+    "product_ref": "P001"
+  },
+  {
+    "review_id": "R002",
+    "reviewer_name": "คุณวันดี สุขเกษม",
+    "stars": 5,
+    "review_text": "อาหารปลาคุณภาพดี ปลาโตไวขึ้นเห็นชัดเจน ราคาคุ้มค่ามาก",
+    "timestamp": "2026-06-12T14:15:00Z",
+    "is_approved": "Y",
+    "product_ref": "P007"
+  },
+  {
+    "review_id": "R003",
+    "reviewer_name": "คุณประยุทธ์ บุญมา",
+    "stars": 4,
+    "review_text": "ปลาดุกตัวใหญ่สมราคา แต่ส่งช้าไปนิดหน่อยเพราะฝนตกหนัก โดยรวมพอใจครับ",
+    "timestamp": "2026-06-15T11:00:00Z",
+    "is_approved": "Y",
+    "product_ref": "P005"
+  },
+  {
+    "review_id": "R004",
+    "reviewer_name": "คุณนิภา รักธรรม",
+    "stars": 5,
+    "review_text": "ติดต่อสอบถามแล้วทางฟาร์มให้คำแนะนำดีมาก ไม่หวงสูตร แนะนำเลยค่ะ",
+    "timestamp": "2026-06-18T16:45:00Z",
+    "is_approved": "Y",
+    "product_ref": ""
+  },
+  {
+    "review_id": "R005",
+    "reviewer_name": "คุณอนุชา พงษ์ไพร",
+    "stars": 5,
+    "review_text": "ซื้อลูกปลานิลแดงไปเลี้ยงในกระชัง โตไวกว่าที่เคยซื้อจากที่อื่นมาก",
+    "timestamp": "2026-06-20T08:20:00Z",
+    "is_approved": "Y",
+    "product_ref": "P003"
+  },
+  {
+    "review_id": "R006",
+    "reviewer_name": "คุณกานดา ศรีสุข",
+    "stars": 3,
+    "review_text": "สินค้าดีแต่บางครั้งสต็อกหมดเร็ว อยากให้แจ้งล่วงหน้านานขึ้น",
+    "timestamp": "2026-06-22T13:10:00Z",
+    "is_approved": "Y",
+    "product_ref": "P002"
+  }
+]

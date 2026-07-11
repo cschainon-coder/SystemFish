@@ -1,0 +1,30 @@
+[
+  {
+    "sort_order": 1,
+    "image_url": "/images/mock/slide-1.svg",
+    "title": "บ่อเลี้ยงปลาช่อนธรรมชาติ",
+    "caption": "เลี้ยงด้วยน้ำสะอาดจากบ่อบาดาล ไม่ใช้สารเร่งโต",
+    "is_active": "Y"
+  },
+  {
+    "sort_order": 2,
+    "image_url": "/images/mock/slide-2.svg",
+    "title": "คัดลูกปลาคุณภาพทุกตัว",
+    "caption": "ตรวจสุขภาพลูกปลาก่อนส่งทุกล็อต มั่นใจได้",
+    "is_active": "Y"
+  },
+  {
+    "sort_order": 3,
+    "image_url": "/images/mock/slide-3.svg",
+    "title": "ฟาร์มได้มาตรฐาน สะอาด ปลอดภัย",
+    "caption": "ระบบบ่อพักน้ำและกรองน้ำที่ได้มาตรฐานฟาร์ม",
+    "is_active": "Y"
+  },
+  {
+    "sort_order": 4,
+    "image_url": "/images/mock/slide-4.svg",
+    "title": "ส่งตรงถึงมือลูกค้าทั่วไทย",
+    "caption": "บรรจุด้วยถุงออกซิเจน ปลอดภัยตลอดการขนส่ง",
+    "is_active": "Y"
+  }
+]
