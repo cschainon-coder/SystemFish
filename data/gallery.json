@@ -1,10 +1,10 @@
 [
-  { "sort_order": 1, "image_url": "/images/mock/gallery-1.svg", "caption": "บ่อเลี้ยงปลาช่อนหลัก", "is_active": "Y" },
-  { "sort_order": 2, "image_url": "/images/mock/gallery-2.svg", "caption": "คัดแยกลูกปลาก่อนส่ง", "is_active": "Y" },
-  { "sort_order": 3, "image_url": "/images/mock/gallery-3.svg", "caption": "บรรจุลูกปลาใส่ถุงออกซิเจน", "is_active": "Y" },
-  { "sort_order": 4, "image_url": "/images/mock/gallery-4.svg", "caption": "ทีมงานฟาร์มดูแลบ่อทุกวัน", "is_active": "Y" },
-  { "sort_order": 5, "image_url": "/images/mock/gallery-5.svg", "caption": "ปลาดุกบิ๊กอุยพร้อมจับขาย", "is_active": "Y" },
-  { "sort_order": 6, "image_url": "/images/mock/gallery-6.svg", "caption": "ลูกค้ามารับสินค้าที่ฟาร์ม", "is_active": "Y" },
-  { "sort_order": 7, "image_url": "/images/mock/gallery-7.svg", "caption": "คลังอาหารปลาพร้อมจำหน่าย", "is_active": "Y" },
-  { "sort_order": 8, "image_url": "/images/mock/gallery-8.svg", "caption": "บรรยากาศฟาร์มยามเช้า", "is_active": "Y" }
+  { "sort_order": 1, "image_url": "images/mock/gallery-1.svg", "caption": "บ่อเลี้ยงปลาช่อนหลัก", "is_active": "Y" },
+  { "sort_order": 2, "image_url": "images/mock/gallery-2.svg", "caption": "คัดแยกลูกปลาก่อนส่ง", "is_active": "Y" },
+  { "sort_order": 3, "image_url": "images/mock/gallery-3.svg", "caption": "บรรจุลูกปลาใส่ถุงออกซิเจน", "is_active": "Y" },
+  { "sort_order": 4, "image_url": "images/mock/gallery-4.svg", "caption": "ทีมงานฟาร์มดูแลบ่อทุกวัน", "is_active": "Y" },
+  { "sort_order": 5, "image_url": "images/mock/gallery-5.svg", "caption": "ปลาดุกบิ๊กอุยพร้อมจับขาย", "is_active": "Y" },
+  { "sort_order": 6, "image_url": "images/mock/gallery-6.svg", "caption": "ลูกค้ามารับสินค้าที่ฟาร์ม", "is_active": "Y" },
+  { "sort_order": 7, "image_url": "images/mock/gallery-7.svg", "caption": "คลังอาหารปลาพร้อมจำหน่าย", "is_active": "Y" },
+  { "sort_order": 8, "image_url": "images/mock/gallery-8.svg", "caption": "บรรยากาศฟาร์มยามเช้า", "is_active": "Y" }
 ]

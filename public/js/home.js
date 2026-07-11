@@ -114,7 +114,7 @@ async function loadAboutSection() {
     const highlights = [config.highlight_1, config.highlight_2, config.highlight_3, config.highlight_4].filter(Boolean);
     section.innerHTML = `
       <div class="about-image">
-        <img src="/images/mock/about-farm.svg" alt="${escapeHtml(config.farm_name)}" loading="lazy">
+        <img src="images/mock/about-farm.svg" alt="${escapeHtml(config.farm_name)}" loading="lazy">
       </div>
       <div class="about-text">
         <span class="eyebrow">รู้จักเรา</span>

@@ -59,6 +59,29 @@ fish-farm-website/
 
 ---
 
+## เว็บออนไลน์ (GitHub Pages)
+
+ทุกครั้งที่ push ขึ้น branch `main` → GitHub Actions จะ build เว็บเวอร์ชัน static แล้ว deploy ให้อัตโนมัติ
+(ดู `.github/workflows/deploy-pages.yml`)
+
+**ข้อจำกัดสำคัญ:** GitHub Pages รัน Node/Express ไม่ได้ เสิร์ฟได้แต่ไฟล์นิ่ง
+`npm run build` จึงแปลง API ทั้ง 8 endpoint ให้เป็นไฟล์ JSON ล่วงหน้าไว้ที่ `dist/api/*.json`
+แล้วให้ `api.js` สลับไปโหมด static (อ่านไฟล์ JSON + กรองข้อมูลฝั่ง browser แทนการยิง API)
+
+ผลคือเว็บบน Pages เป็นแบบ **อ่านอย่างเดียว** — ดูสินค้า/บทความ/รีวิวได้ครบ แต่ **ส่งรีวิว/คำถามใหม่ไม่ได้**
+(ฟอร์มจะขึ้นข้อความแจ้งว่าเป็นเวอร์ชันสาธิต) ถ้าต้องการให้ส่งฟอร์มได้จริง ต้อง deploy บน host ที่รัน Node ได้ เช่น Render
+
+แก้ข้อมูลใน `/data/*.json` แล้ว push → เว็บออนไลน์อัปเดตตามเองภายใน 1-2 นาที
+
+ทดสอบเวอร์ชัน static ในเครื่องก่อน push:
+
+```bash
+npm run build
+npx serve dist
+```
+
+---
+
 ## ขั้นตอนต่อไป: เปลี่ยนเป็น Google Sheets จริง
 
 เมื่อตรวจสอบ UI ผ่านแล้ว ทำตามนี้เพื่อเชื่อมข้อมูลจริง:
